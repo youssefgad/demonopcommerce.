@@ -10,5 +10,5 @@ public class P04_WishList {
 
 
     @FindBy(css = "input[value='1']")
-    public WebElement HTCQty;
+    public WebElement WishlistPage;
 }

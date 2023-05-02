@@ -54,7 +54,7 @@ public class D08_WishlistStepDef {
     @Then("Verify user product add in wishlist-page")
     public void verifyUserProductAddInWishlistpage() {
 
-        String actualqtr = Wishlist.HTCQty.getAttribute("value");
+        String actualqtr = Wishlist.WishlistPage.getAttribute("value");
         int Actualint= Integer.parseInt(actualqtr);
         System.out.println(actualqtr);
 
